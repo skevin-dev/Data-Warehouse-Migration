@@ -1,0 +1,12 @@
+data_warehouse:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: airflow
+      schema: public
+  target: dev
+  

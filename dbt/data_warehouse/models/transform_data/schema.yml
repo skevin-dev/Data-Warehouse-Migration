@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: traffic
+    description: "10 first observations"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: cars
+    description: "dbt model table with cars"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
