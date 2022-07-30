@@ -97,8 +97,16 @@ services:
         env_file: .env
         ports:
             - "3307:3306"
+      
         volumes:
             - mysql-db-volume:/var/lib/mysql
+
+        environment:
+          MYSQL_DATABASE: airflow_mysql
+          MYSQL_ROOT_PASSWORD: airflow
+          MYSQL_PASSWORD: airflow
+          MYSQL_USER: airflow_mysql
+
   airflow-webserver:
     <<: *airflow-common
     command: webserver
