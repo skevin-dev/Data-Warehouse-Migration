@@ -75,6 +75,15 @@ Make sure you have docker installed on local machine.
     Navigate to `http://localhost:5000/` on the browser
     ```
 
+7. Access superset dashboard
+  ```JS
+  cd superset 
+  Run docker-compose -f docker-compose-non-dev.yml pull
+  Run docker-compose -f docker-compose-non-dev.yml up
+  Navigate to `http://localhost:8088/`
+
+  ```
+
 
 <!-- LICENSE -->
 ## License
