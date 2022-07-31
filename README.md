@@ -25,7 +25,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![ELT](screenshots/Pipeline_migration.jpp)
+![ELT](screenshots/Pipeline_migration.jpg)
 A dockerized Extract, Load, Transform (ELT) pipeline with PostgreSQL, Airflow, DBT, and a Redash.
 
 ### Built With
